@@ -1,0 +1,181 @@
+.body {
+    /* stablece una altura máxima de 400px. */
+    max-height: 400px; 
+}
+
+.container-video {
+    
+     width: auto;    /*establece un ancho automático */
+    height: 450px;  /* Se establece un ancho automático  */
+    overflow: hidden;     /* se oculta el contenido que sobrepasa los límites del contenedor */
+    position: relative; /* se establece una posición relativa */
+}
+
+.caja {
+    text-align: center; /* establece el texto centrado */
+}
+
+#secciondeproductos {
+    background-color: #FFE227; /* Establece el color de fondo */
+}
+
+.Contactanos h3 {
+    background-color: #121013;/* Establece el color de fondo */
+    color: white; /* el color del texto en blanco  */
+    text-align: center; /* texto centrado */
+}
+
+.Contactanos {
+    background-color: #FFE227;
+}
+
+.inicios h3 {
+    background-color: #121013;
+    color: white;
+    text-align: center;
+}
+
+.eventos h3 {
+    background-color: #121013;
+    color: white;
+    text-align: center;
+}
+
+.mccafe h3 {
+    background-color: #121013;
+    color: white;
+    text-align: center;
+}
+
+#mcafe {
+    background-color: #FFE227;
+}
+/* Establece el ajuste de objeto en la vista previa de video para cubrir toda la pantalla, se establece una posición absoluta y se establece un ancho y alto del 100%. */
+.container-video video {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/* Establece una posición absoluta, el texto centrado en la parte inferior del contenedor y se establece un ancho del 100%. */
+.container-video div {
+    position: absolute;
+    text-align: center;
+    bottom: 100px;
+    width: 100%;
+}
+
+.titulo {
+    color: #FDFFF8;
+}
+/* Establece el margen de 30px, la opacidad del 0,2, el color de fondo gris y el color del texto en #FDFFF8 para el elemento con clase parrafotitulo. */
+.parrafotitulo {
+    margin: 30px;
+    opacity: 0.2;
+    background-color: gray;
+    color: #FDFFF8;
+}
+/* Establece el color de fondo en #4D375D, el tamaño de fuente en 1.5em, se establece un borde de 1px sólido en #121013, el ancho en 150px y la fuente en Arial, Helvetica, sans-serif. */
+.boton {
+    background-color: #4D375D;
+    font-size: 1.5em;
+    border: 1px solid #121013;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* Establece el color de fondo en naranja y el color del texto en blanco para el elemento con clase .boton cuando el cursor del mouse pasa por encima. */
+.boton:hover {
+    background-color: orange;
+    color: white;
+}
+/* Establece un relleno inferior de 4.5rem para el elemento con ID encabezado. */
+#encabezado {
+    padding-bottom: 4, 5rem;
+}
+/* Establece el relleno derecho e izquierdo en 18px y el tamaño de fuente en 1.2rem para el elemento con ID enlaces. */
+#enlaces {
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 1.2rem;
+}
+
+#icono1 {
+    color: #121013;
+}
+
+#icono1:hover {
+    color: white;
+}
+
+.icono {
+    color: #4D375D;
+}
+
+.icono:hover {
+    color: white;
+}
+
+
+/* selecciona elementos con la clase "carrusel" y centra su texto, además de establecer el color de fondo en #FFE227 (un color amarillo claro). */
+.carousel {
+    text-align: center;
+    background-color: #FFE227;
+}
+/* Selecciona elementos con la clase "contactos" y centra su texto. */
+.contactos {
+    text-align: center;
+}
+
+/* selecciona el elemento con el ID "pie de página" y establece su color de fondo en #FFE227, centra su texto, establece su relleno en 100 px en la parte superior, 
+15 % a la derecha e izquierda y 20 % en la parte inferior, y establece su colorea a #4D375D (un color púrpura oscuro). */
+
+#footer {
+    background-color: #FFE227;
+    text-align: center;
+    padding: 100px 15% 20%;
+    color: #4D375D;
+}
+/* apunta a elementos con la clase "spanSpace" y establece su relleno a la izquierda y a la derecha en 25 px. */
+.spanSpace {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* Apunta a elementos con la clase "social" y establece su relleno en la parte inferior al 5%. */
+.social {
+    padding-bottom: 5%;
+}
+/* Selecciona elementos con la clase "productos" y centra su texto, además de establecer el color de fondo en #FFE227. */
+.productos {
+    background-color: #FFE227;
+    text-align: center;
+}
+/* Apunta al elemento h3 dentro del elemento con el ID "productos" y establece su color de fondo en #121013 (un color gris oscuro), su color en blanco y centra su texto. */
+#productos h3 {
+    background-color: #121013;
+    color: white;
+    text-align: center;
+}
+/* Apunta al elemento con ID "pestañas" y establece su color de fondo en #FFE227. */
+#pestañas {
+    background-color: #FFE227;
+}
+/* apunta al elemento con el "logotipo" de ID y establece su color de fondo en #FFE227. */
+#logo {
+    background-color: #FFE227;
+}
+
+/* Apunta a todos los elementos de la página y establece su familia de fuentes en 'Ubuntu', sans-serif, con una fuente alternativa de Arial, sans-serif. */
+* {
+    font-family:'Ubuntu', sans-serif;
+    fallback-font: Arial, sans-serif;
+}
+
+
+/* apunta al elemento con el ID "piedepagina" y establece su color de fondo en #FFE227. */
+#piedepagina {
+    background-color: #FFE227;
+}
+ .fondofooter{
+color:#FFE227;
+} 
